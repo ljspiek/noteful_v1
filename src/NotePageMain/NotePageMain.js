@@ -25,7 +25,7 @@ class NotePageMain extends React.Component {
 }
 
 NotePageMain.propTypes = {
-  match: PropTypes.object
+  match: PropTypes.object.isRequired
 }
 
 export default NotePageMain;

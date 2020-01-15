@@ -108,7 +108,7 @@ class NoteListNav extends React.Component {
 }
 
 NoteListNav.propTypes = {
-  match: PropTypes.object
+  match: PropTypes.object.isRequired
 }
 
 NoteListNav.defaultProps = {
